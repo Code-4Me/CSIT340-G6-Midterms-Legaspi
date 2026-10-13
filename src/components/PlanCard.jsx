@@ -16,6 +16,9 @@ function PlanCard({ name, price, storage, support, seats, months }) {
 			</p>
 		</div>
 	);
+
+
+    
 }
 
 export default PlanCard;
