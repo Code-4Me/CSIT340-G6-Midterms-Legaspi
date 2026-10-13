@@ -10,4 +10,8 @@ function Summary({ seats, months }) {
   );
 }
 
+
+
+
+
 export default Summary;
