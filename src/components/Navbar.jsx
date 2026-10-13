@@ -9,20 +9,20 @@ function Navbar() {
       </a>
       <ul className="flex gap-10 text-xl">
         <li>
-          <a href="#plans" className="hover:text-[#CB2957]">
+          
             Product
-          </a>
+          
         
         </li>
         <li>
-          <a href="#plans" className="hover:text-[#CB2957]">
+          
             Pricing
-          </a>
+   
         </li>
         <li>
-          <a href="#support" className="hover:text-[#CB2957]">
+         
             Support
-          </a>
+
         </li>
       </ul>
     </nav>
