@@ -19,7 +19,7 @@ function App() {
   }
 
   return (
-    <div className="flex min-h-screen flex-col bg-[#DDDDDD] text-[#000000]">
+    <div id="top" className="flex min-h-screen flex-col bg-[#DDDDDD] text-[#000000]">
       <Navbar />
 
       <div className="flex items-end justify-between bg-[#000000] px-20 py-12 text-[#EEEEEE]">
@@ -95,7 +95,7 @@ function App() {
         </div>
       </main>
 
-      <footer className="mt-auto bg-[#000000] px-20 py-6 text-center text-xl text-[#EEEEEE]">
+      <footer id="support" className="mt-auto bg-[#000000] px-20 py-6 text-center text-xl text-[#EEEEEE]">
         <p>All plans are billed per seat, every month.</p>
       </footer>
     </div>
