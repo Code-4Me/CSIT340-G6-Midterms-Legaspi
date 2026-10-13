@@ -12,6 +12,7 @@ function Navbar() {
           <a href="#plans" className="hover:text-[#CB2957]">
             Product
           </a>
+        
         </li>
         <li>
           <a href="#plans" className="hover:text-[#CB2957]">
