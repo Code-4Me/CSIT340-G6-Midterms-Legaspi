@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Navbar from "./components/Navbar";
 
 function App() {
   const [seats, setSeats] = useState(1);
@@ -19,14 +20,7 @@ function App() {
 
   return (
     <div className="flex min-h-screen flex-col bg-[#DDDDDD] text-[#000000]">
-      <nav className="flex items-center justify-between border-b border-[#CB2957] bg-[#000000] px-20 py-6 text-[#EEEEEE]">
-        <h1 className="text-3xl font-bold">Cloudline</h1>
-        <ul className="flex gap-10 text-xl">
-          <li>Product</li>
-          <li>Pricing</li>
-          <li>Support</li>
-        </ul>
-      </nav>
+      <Navbar />
 
       <div className="flex items-end justify-between bg-[#000000] px-20 py-12 text-[#EEEEEE]">
         <header>
@@ -34,7 +28,7 @@ function App() {
           <p className="mt-4 text-3xl text-[#CB2957]">
             Seats: {seats} | Months: {months}
           </p>
-          <p className="mt-2 text-xl">Quote for YOUR NAME</p>
+          <p className="mt-2 text-xl">Rey Uriel Y. Legaspi</p>
         </header>
 
         <div className="flex gap-4">
@@ -59,7 +53,7 @@ function App() {
         </div>
       </div>
 
-      <main className="grid grid-cols-3 gap-8 px-20 pt-10">
+      <main id="plans" className="grid grid-cols-3 gap-8 px-20 pt-10">
         <div className="overflow-hidden rounded-xl border-2 border-[#000000] bg-[#EEEEEE]">
           <div className="p-8">
             <h3 className="text-3xl font-bold">Starter</h3>
